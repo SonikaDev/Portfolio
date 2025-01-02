@@ -3,9 +3,7 @@ import React, { Fragment, useState, useRef, useEffect } from "react";
 import Image from "next/image";
 import { FaBlackTie, FaUserCheck } from "react-icons/fa";
 import { ImLocation } from "react-icons/im";
-import { IoPerson } from "react-icons/io5";
 import { BsMenuAppFill } from "react-icons/bs";
-import img from "../../girl.webp"
 
 const About = () => {
   const [isAbout, setIsAbout] = useState(false);
