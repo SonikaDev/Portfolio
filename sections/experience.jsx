@@ -33,7 +33,7 @@ const Experience = () => {
 
   return (
     <Fragment>
-      <section id='experience' ref={expeRef}>
+      <section className = 'pt-24' id='experience' ref={expeRef}>
         <h2 className='text-3xl font-bold text-center p-4 flex justify-center items-center gap-3'>
           <MdWork /> Experience
         </h2>
@@ -61,7 +61,7 @@ const Experience = () => {
                   }
                 >
                   <div className='flex justify-between gap-2'>
-                    <p className='text-xl md:text-2xl font-bold text-red-600 dark:text-[#ffc300]'>
+                    <p className='text-xl md:text-2xl font-bold text-[#c72c6c] dark:text-[#ffc300]'>
                       {experience.companyName}
                     </p>
                     <p className='flex gap-2 items-center text-white-500'>
@@ -136,7 +136,7 @@ const Experience = () => {
                   }
                 >
                   <div className='flex justify-between gap-2'>
-                    <p className='text-xl md:text-2xl font-bold text-red-600 dark:text-[#ffc300]'>
+                    <p className='text-xl md:text-2xl font-bold text-[#c72c6c] dark:text-[#ffc300]'>
                       {experience.companyName}
                     </p>
                     <p className='flex gap-2 items-center text-white-500'>

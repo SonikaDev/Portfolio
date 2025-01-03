@@ -12,7 +12,6 @@ import NavbarMobile from "./NavbarMobile";
 import { ThemeContext } from "@/context/themeContext";
 
 const Navbar = () => {
-  const [top, setTop] = useState("0");
   const [showMenu, setShowMenu] = useState(false);
 
   const { setThemeFun, theme } = useContext(ThemeContext);
@@ -24,11 +23,6 @@ const Navbar = () => {
     const handleScroll = () => {
       const currentScrollPos = window.scrollY;
 
-      if (prevScrollPos > currentScrollPos) {
-        setTop("0"); // Show the navbar
-      } else {
-        setTop("-80px"); // Hide the navbar
-      }
 
       prevScrollPos = currentScrollPos;
     };
@@ -44,8 +38,8 @@ const Navbar = () => {
     <Fragment>
       {/* Desktop Header */}
       <div
-        className='w-full h-[70px] px-8 bg-[rgba(255,255,255,0.8)] dark:bg-[rgba(0,0,0,0.8)] backdrop-filter backdrop-blur-lg hidden md:flex justify-between items-center gap-4 shadow-sm shadow-gray-300 dark:shadow-gray-800 fixed z-10 transition-all duration-500'
-        style={{ top: top }}
+        className='w-full h-[70px]  px-8 bg-[rgba(255,255,255,0.8)] dark:bg-[rgba(0,0,0,0.8)] backdrop-filter backdrop-blur-lg hidden md:flex justify-between items-center gap-4 shadow-sm shadow-gray-300 dark:shadow-gray-800 fixed z-10 transition-all duration-500'
+        style={{ top: 0 }}
       >
         {/* Name Logo */}
         <p className='text-white-400 flex'>
@@ -59,7 +53,7 @@ const Navbar = () => {
               href={navbar.link}
               key={navbar.name}
             >
-              <div className='h-full pb-1 hover:pb-0 px-2 flex items-center hover:border-b-4  border-[#ffc300] dark:border-[#ffc300] transition-all'>
+              <div className='h-full pb-1 hover:pb-0 px-2 flex items-center hover:border-b-4  border-[#c72c6c] dark:border-[#ffc300] transition-all'>
                 {navbar.name}
               </div>
             </Link>
@@ -86,7 +80,7 @@ const Navbar = () => {
         setThemeFun={setThemeFun}
         showMenu={showMenu}
         theme={theme}
-        top={top}
+        top="0"
       />
 
       {/* SideMenu For Mobile Screen */}

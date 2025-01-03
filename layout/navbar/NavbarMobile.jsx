@@ -22,14 +22,14 @@ const NavbarMobile = ({ setShowMenu, setThemeFun, theme, showMenu, top }) => {
 
         {/* Name Logo */}
         <p className='text-gray-400 flex'>
-          <span className='text-lg font-bold'>SONIKA</span> <DiTechcrunch />
+          <span className='text-lg font-bold'>SONIKA</span>
         </p>
       </div>
 
       {/* Toggle Theme Button */}
       <div className='flex items-center gap-4'>
         <button
-          className='text-[#c72c6c] dark:text-[#07d0e5] text-2xl font-semibold hover:scale-110'
+          className='text-[#c72c6c] dark:text-[#ffc300] text-2xl font-semibold hover:scale-110'
           onClick={setThemeFun}
         >
           {theme === "dark" ? <TbBulbFilled /> : <BsFillLightningChargeFill />}

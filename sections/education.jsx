@@ -31,13 +31,13 @@ const Education = () => {
       educationBoxesRef.current.classList.add("pop-up-child");
     } else {
       educationBoxesRef.current.classList.remove("pop-up-child");
-    }
+    } 
   }, [isEducation]);
 
   return (
     <Fragment>
       <section
-        className='shadow-zinc-300 dark:shadow-zinc-700 shadow-sm overflow-x-hidden'
+        className='pt-24 shadow-zinc-300 dark:shadow-zinc-700 shadow-sm overflow-x-hidden'
         id='education'
         ref={educationRef}
       >
@@ -62,7 +62,7 @@ const Education = () => {
                 width={150}
               />
               <div className='flex flex-col gap-2 p-3 md:p-1'>
-                <p className='text-xl md:text-2xl font-bold text-red-600 dark:text-[#ffc300]'>
+                <p className='text-xl md:text-2xl font-bold text-[#c72c6c] dark:text-[#ffc300]'>
                   {education.name}
                 </p>
                 <p>{education.schoolOrCollege}</p>

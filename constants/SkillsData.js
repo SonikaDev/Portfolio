@@ -9,15 +9,16 @@ import {
   SiTailwindcss,
   SiMui,
   SiChakraui,
-  SiFirebase,
   SiTypescript,
-  SiJquery
+  SiJquery,
+  SiGraphql,
+  SiWebpack,
+  SiReduxsaga 
 } from "react-icons/si";
 import { DiJavascript1, DiReact, DiMongodb, DiSass } from "react-icons/di";
 import { BsGit, BsGithub } from "react-icons/bs";
-import { FaBootstrap, FaCss3Alt, FaAngular, FaPhp, FaShopify, FaJava } from "react-icons/fa";
+import { FaBootstrap, FaCss3Alt, FaAngular, FaPhp, FaShopify, FaAws  } from "react-icons/fa";
 import { TbBrandReactNative } from "react-icons/tb";
-import { GrMysql } from "react-icons/gr";
 
 export const SkillsData = [
   {
@@ -55,10 +56,6 @@ export const SkillsData = [
         icon: <SiMui className="md:text-4xl text-2xl" color="#29b6f6" />,
       },
       {
-        name: "Chakra UI",
-        icon: <SiChakraui className="md:text-4xl text-2xsl" color="#50cbc0" />
-      },
-      {
         name: "Vercel",
         icon: <SiVercel className="dark:text-white text-black md:text-4xl text-2xl" />
       },
@@ -85,16 +82,12 @@ export const SkillsData = [
         icon: <DiMongodb className="md:text-4xl text-2xl" color="#4caf50" />,
       },
       {
-        name: "firebase",
-        icon: <SiFirebase className="md:text-4xl text-2xl" color="#ffcd33" />
-      },
-      {
         name: "jQuery",
         icon: <SiJquery className="md:text-4xl text-2xsl" color="#106dae" />
       },
       {
-        name: "netlify",
-        icon: <SiNetlify className="md:text-4xl text-2xl" color={"#31b5ba"} />
+        name: "GhraphQL",
+        icon: <SiGraphql className="md:text-4xl text-2xl" color={"#31b5ba"} />
       },
       {
         name: "Git",
@@ -116,24 +109,24 @@ export const SkillsData = [
         icon: <TbBrandReactNative className="md:text-4xl text-2xl" color="#66dbfb" />
       },
       {
-        name: "PHP",
-        icon: <FaPhp className="md:text-4xl text-2xl" color="#7b7fb5" />
+        name: "Webpack",
+        icon: <SiWebpack className="md:text-4xl text-2xl" color="#7b7fb5" />
       },
       {
-        name: "JAVA",
-        icon: <FaJava className="md:text-4xl text-2xl" color="#547c99" />
+        name: "AWS",
+        icon: <FaAws  className="md:text-4xl text-2xl" color="#547c99" />
       },
       {
         name: "SASS",
         icon: <DiSass className="md:text-4xl text-2xl" color="#f06292" />,
       },
       {
-        name: "MySQL",
-        icon: <GrMysql className="md:text-4xl text-2xl" color="#08668e" />
+        name: "netlify",
+        icon: <SiNetlify className="md:text-4xl text-2xl" color={"#31b5ba"} />
       },
       {
-        name: "Shopify",
-        icon: <FaShopify className="md:text-4xl text-2xl" color="#99c14f" />
+        name: "Redux-Saga",
+        icon: <SiReduxsaga  className="md:text-4xl text-2xl" color="#99c14f" />
       }
     ]
 

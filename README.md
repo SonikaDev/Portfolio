@@ -1,4 +1,6 @@
-# Sonika's Portfolio - 👌 Best NextJS Portfolio
+# Sonika's Portfolio [Live](https://portfolio-uzfo.vercel.app) - 👌 Best NextJS Portfolio
+
+![Welcome Screen](https://portfolio-uzfo.vercel.app/images/home.png)
 
 
 ## Table of content

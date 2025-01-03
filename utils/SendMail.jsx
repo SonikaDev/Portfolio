@@ -84,7 +84,7 @@ const SendMail = () => {
               />
 
               <button
-                className='font-bold text-white dark:bg-[#c79e19] disabled:cursor-default p-2 rounded dark:hover:bg-[#ffc300] bg-[#f91071] hover:bg-[#c72c6c]'
+                className='font-bold text-white dark:bg-[#c79e19] disabled:cursor-default p-2 rounded dark:hover:bg-[#ffc300] bg-[#c72c6c] hover:bg-[#df6095]'
                 disabled={sending}
                 type='submit'
               >

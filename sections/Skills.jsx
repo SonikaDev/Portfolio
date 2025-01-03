@@ -52,7 +52,7 @@ const TechStack = () => {
   return (
     <Fragment>
       <section
-        className='shadow-zinc-300 dark:shadow-zinc-700 shadow-sm overflow-hidden'
+        className='pt-24 shadow-zinc-300 dark:shadow-zinc-700 shadow-sm overflow-hidden'
         id='techStack'
         ref={techStackRef}
       >
@@ -66,7 +66,7 @@ const TechStack = () => {
         >
           <button
             className={`w-[120px] md:w-[150px] p-2 font-bold ${
-              section === "Advance" ? "bg-red-600" : null
+              section === "Advance" ? "bg-[#c72c6c] dark:bg-red-600" : null
             } transition-all`}
             onClick={(e) => {
               setSection(e.target.innerText);
@@ -78,7 +78,7 @@ const TechStack = () => {
           </button>
           <button
             className={`w-[120px] md:w-[150px] p-2 font-bold ${
-              section === "Good" ? "bg-red-600" : null
+              section === "Good" ? "bg-[#c72c6c] dark:bg-red-600" : null
             } transition-all border-l border-r border-black dark:border-white border-solid`}
             onClick={(e) => {
               setSection(e.target.innerText);
@@ -90,7 +90,7 @@ const TechStack = () => {
           </button>
           <button
             className={`w-[100px] md:w-[150px] p-2 font-bold ${
-              section === "Familiar" ? "bg-red-600" : null
+              section === "Familiar" ? "bg-[#c72c6c] dark:bg-red-600" : null
             } transition-all`}
             onClick={(e) => {
               setSection(e.target.innerText);

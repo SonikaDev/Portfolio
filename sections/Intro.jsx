@@ -62,20 +62,20 @@ const Intro = () => {
               I&apos;m a 
               <span className='text-[#c72c6c] dark:text-[#ffc300]'>
                 {" "}
-                FrontEnd developer <span className='text-white'>|</span>
+                FrontEnd developer
               </span>
             </p>
             <div className='mt-5 md:mt-10 flex gap-3'>
               {/* Hire Me Button */}
               <Link
-                className='text-white text-xl font-semibold rounded bg-red-400 dark:bg-[#c79e19] dark:hover:bg-[#ffc300] px-2 py-1'
+                className='text-white text-xl font-semibold rounded bg-[#c72c6c] hover:bg-[#df6095] dark:bg-[#c79e19] dark:hover:bg-[#ffc300] px-2 py-1'
                 href={"#getInTouch"}
               >
                 Hire me
               </Link>
               {/* Download CV Button */}
               <Link
-                className='text-xl font-semibold rounded border  dark:border-[#c79e19] border-red-500 hover:text-white dark:hover:bg-[#ffc300] hover:bg-red-500 px-2 py-1'
+                className='text-xl font-semibold rounded border dark:border-[#c79e19] border-red-500 hover:text-white dark:hover:bg-[#c79e19] hover:bg-[#c72c6c] px-2 py-1'
                 href='https://drive.google.com/file/d/1LKCmMf7LNpOd9Jy0Dw1pdfQYrrXLP8ys/view?usp=drive_link'
                 target='_blank'
               >

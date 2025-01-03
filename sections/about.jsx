@@ -44,7 +44,7 @@ const About = () => {
   return (
     <Fragment>
       <section
-        className=' shadow-zinc-300 dark:shadow-zinc-700 shadow-sm overflow-x-hidden'
+        className='pt-24 shadow-zinc-300 dark:shadow-zinc-700 shadow-sm overflow-x-hidden'
         id='about'
         ref={aboutRef}
       >
@@ -73,7 +73,7 @@ const About = () => {
             </p>
             {/* Profil Name */}
             <p className='text-center text-white-700 mt-1'>
-              FrontEnd Developer
+              Frontend Developer
             </p>
             {/* Location */}
             <div className='flex flex-wrap justify-center gap-5'>
@@ -86,8 +86,8 @@ const About = () => {
                     <ImLocation />
                   </p>
                 </div>
-                <p className='text-center md:text-left text-[#0b0c0c] dark:text-[#FFFFFF]'>
-                  Ghaziabad Uttar Pradesh India{" "}
+                <p className='text-center md:text-left text-[#c72c6c] dark:text-[#FFFFFF]'>
+                  Ghaziabad, Uttar Pradesh India{" "}
                 </p>
               </div>
               {/* Experience */}

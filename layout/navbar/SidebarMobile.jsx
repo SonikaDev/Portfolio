@@ -27,7 +27,7 @@ const MobileNavbar = ({ showMenu, setShowMenu }) => {
                 S
               </div>
               <p className='text-gray-400 flex'>
-                <span className='text-lg font-bold'>SONIKA</span> <DiTechcrunch />
+                <span className='text-lg font-bold'>SONIKA</span>
               </p>
             </div>
 
